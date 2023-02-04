@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Noto+Serif&display=swap');
+
 body {
     background-color: #B1DDF1;
+    font-family: "Noto Serif", "Noto Sans", "Helvetica", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 #content {
@@ -17,13 +27,24 @@ header {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 35px;
+
 }
 
 nav a:hover {
@@ -39,26 +60,20 @@ h4 {
     color: black;
 }
 
-.book {
-    background-color: #7A4419;
-    color: white;
-    text-decoration: none;
-}
-
+.book,
 .join {
     background-color: #7A4419;
     color: white;
     text-decoration: none;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover {
-    background-color: #D4AC0D;
-    color: black;
-}
-
+.book:hover,
 .join:hover {
-    background-color: #d4ac0d;
+    background-color: #D4AC0D;
     color: black;
 }
 
@@ -82,6 +97,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #D4AC0D;
@@ -89,6 +108,8 @@ main section {
 
 .msg {
     background-color: #396E94;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -96,18 +117,31 @@ main section {
 }
 
 .msg p {
+    font-size: 0.8em;
     color: black;
+    padding-bottom: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
 }
 
 footer {
     background-color: #7A4419;
     color: white;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
     font-size: 1.2em;
-
 }
 
 footer p a:hover {
@@ -121,4 +155,8 @@ footer a {
 
 footer a:hover {
     color: #B1DDF1;
+}
+
+footer .social img {
+    padding-top: 15px;
 }

@@ -17,6 +17,7 @@ h2 {
     margin: 0 auto;
 }
 
+/*#region header */
 header {
     background-color: #7A4419;
     display: grid;
@@ -62,12 +63,18 @@ nav a:hover {
     background-color: #d4ac0d;
 }
 
+/*#endregion*/
+
+/* === Home Page === */
+
+/*#region hero */
+
 .home-title {
-    color: black;
+    color: white;
 }
 
 h4 {
-    color: black;
+    color: white;
 }
 
 .book,
@@ -123,6 +130,9 @@ h4 {
     text-align: center;
 }
 
+/*#endregion*/
+
+/*#region main */
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -202,7 +212,88 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/*#endregion*/
 
+/* === FAQ Page === */
+
+/*#region faq-image */
+
+#faq {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#faq-img {
+    width: 100%;
+}
+
+#faq-box {
+    z-index: -1;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+#faq-msg {
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;
+}
+
+.faq-title {
+    color: white;
+    text-align: center;
+    size: 10ch;
+}
+
+
+
+/*#endregion*/
+
+/*#region faq-grid */
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.category {
+    grid-column: 2/3;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.faq-grid h3 {
+    grid-column: 3/6;
+    text-align: center;
+    margin: 40px;
+    padding: 50px;
+    width: 80%;
+}
+
+.faq-grid .answer {
+    grid-column: 7/10;
+    margin: auto;
+    width: 100%;
+
+}
+
+.hr_line {
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    border: 2px solid black;
+    width: 100%;
+    grid-column: 2/10;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*#endregion */
+
+/*#region === footer === */
 footer {
     background-color: #7A4419;
     color: white;
@@ -296,3 +387,5 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/*#endregion*/

@@ -40,7 +40,6 @@ nav {
 
 #logo_link {
     padding-top: 5px;
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -252,6 +251,7 @@ main section img {
 /*#endregion*/
 
 /*#region faq-grid */
+
 .faq-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

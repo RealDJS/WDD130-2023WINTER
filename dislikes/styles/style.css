@@ -72,7 +72,7 @@ nav a:hover {
 footer {
     font-family: "Noto Serif";
     background-color: #FE5F55;
-    padding: 35px auto;
+    padding: 35px;
     margin-top: 500px;
     padding: 25px 50px;
     margin: 0 auto;
@@ -128,7 +128,7 @@ footer div:hover {
 #villan-title {
     color: black;
     text-align: center;
-    size: 9ch;
+
     color: rgba(255, 255, 255, 0.883);
 }
 
